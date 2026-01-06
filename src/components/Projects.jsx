@@ -37,7 +37,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="max-h-full max-w-full object-contain"
+                  className="w-full h-[260px] bg-gray-900 flex items-center justify-center"
                 />
                 <div className="bg-gray-800 p-4 text-center">
                   <h3 className="text-xl font-semibold">{project.title}</h3>
